@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reviews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <h1><i class="fa-solid fa-mask"></i>SCREENA</h1>
+
+    <h2 style="color: #fff; font-size: 1rem; margin-bottom: 20px;">Search movies & Shows</h2>
+
+  <!-- reviews.ejs -->
+<form id="reviewForm">
+  <label for="movie"></label>
+  <select id="movie" name="movie" required>
+    <!-- Populate this list dynamically from your server-side data -->
+    
+    <option selected>Death on the Nile (2022)</option>
+            <option >After Earth (2013)</option>
+            <option >Ant-Man and the Wasp: Quantumania (2023)</option>
+            <option >Aquaman and the Lost Kingdom (2023)</option>
+            <option >Black Adam (2022)</option>
+            <option >Black Panther: Wakanda Forever (2022)</option>
+            <option >Fullmetal Alchemist: Final Transmutation (2023)</option>
+            <option >Gajaman (2020)</option>
+            <option >Interceptor (2021)</option>
+            <option >John Wick: Chapter 4 (2022)</option>
+            <option >Meg 2: The Trench (TBA)</option>
+            <option >Money Heist (2017-Present)</option>
+            <option >Plane (2023)</option>
+            <option >The Avengers (2012)</option>
+            <option >Thor: Love and Thunder (2022)</option>
+            <option >Wednesday (2022-Present)</optio>
+            <option >SHAZAM (2022)</option>
+            <option>Dune 2(TBA)</option>
+    <!-- Add more movie options here -->
+  </select>
+
+  <label for="review"></label>
+  <textarea id="review" name="review" cols="45" rows="15" placeholder="What do you think about this movie?" required></textarea>
+
+  <button type="submit" class="submit-btn" id="submit" onclick="reviewDetails();">Submit Review</button>
+</form>
+
+<p class="output" id="output1"></p>
+ <a href="/users/dashboard"><p>Go home</p></a>
+
+ <script src="/reviews.js"></script>
+</body>
+</html>

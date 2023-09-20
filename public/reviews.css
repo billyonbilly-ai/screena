@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../image/cinema2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.post-review {
+    position: absolute;
+    bottom: -16%;
+    right: 1%;
+}
+
+h1{
+    font-family: 'roboto', sans-serif;
+    color:#ffe100;
+    letter-spacing: -5px;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.movies {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-mask {
+    margin-right: 15px;
+  }
+
+  p {
+    font-family: 'roboto', sans-serif;
+    color: #ffe100;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  select {
+    width: 32rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    background-color: #171717;
+    color: #ffe100;
+    border-radius: 5px;
+  }
+
+  textarea {
+    outline: none;
+    border: none;
+    background-color: #171717;
+    color: #ffe100;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-top: -4rem;
+  }
+
+  .submit-btn {
+    width: 20rem;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+    border:none;
+    background-color: #ffe100;
+    color: #171717;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.output {
+    width: 40rem;
+    height: 40px;
+    padding: 10px 7px;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffe100;
+}

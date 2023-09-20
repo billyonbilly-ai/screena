@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #171717;
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+
+}
+
+.our-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    color: #ffe100;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+img {
+    width: 220px;
+    height: 326px;
+}
+
+h2 {
+    font-size:2rem ;
+    color: #ffe100;
+}
+
+.review-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 250px;
+
+}
+
+p::before {
+    content: open-quote;
+    color: #ffe100;
+    font-size: 2rem;
+}
+
+p::after {
+    content: close-quote;
+    color: #ffe100;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #ffe100;
+}
+
+a {
+    text-decoration: none;
+    color: #ffe100;
+    font-size: 1.2rem;
+    margin: 25px;
+}

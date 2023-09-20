@@ -1,0 +1,150 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+
+html {
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.alert {
+    color:rgb(255, 37, 37);
+    margin-top: -40px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../image/cinema.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+}
+
+body h1{
+    font-family: 'roboto', sans-serif;
+    margin-top: -90px;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+form {
+    width: 45rem;
+    height: 55rem;
+    border-radius: 5px;
+    background-color: #171717;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0px 1px 1px #000;
+}
+
+input::placeholder {
+    color: #808080;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+form h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #eff2f1;
+}
+
+form .submit-btn {
+    width: 10rem;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+    border:none;
+    background-color: #ffe100;
+    color: #171717;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+form p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+form, p, a {
+    font-family: 'roboto', sans-serif;
+    color: #ffe100; 
+    border: 0;
+}
+
+P {
+    font-size: 1rem;
+}
+
+
+
+.login-email {
+    margin-bottom: 20px; 
+}
+
+.login-password {
+    margin-bottom: 45px;
+}
+
+.login{
+    border-radius: 5px;
+    width: 27rem;
+    background-color: #eeee;
+    color:#000;
+    padding: 2px 5px;
+    height: 35px;
+    border: none;
+}
+
+/* .alert-box{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background: rgb(255, 119, 119);
+    border-top: 10px solid rgb(255, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    transition: 1s;
+} */
+
+

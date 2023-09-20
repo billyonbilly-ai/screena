@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../image/cinema2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+
+}
+
+body h1{
+    font-family: 'roboto', sans-serif;
+    margin-top: -90px;
+    color:#ffe100;
+    letter-spacing: -8px;
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+
+.submit-btn {
+    width: 10rem;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family:'roboto', sans-serif;
+    font-weight: 700;
+    border:none;
+    background-color: #ffe100;
+    color: #171717;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 30rem;
+}
+
+.fa-mask {
+    margin-right: 15px;
+  }

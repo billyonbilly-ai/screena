@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="
+https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+
+        <nav>
+
+            <div class="logo">
+                <h1>Screena</h1>
+            </div>
+            <h1 class="welcome"><i class="fa-solid fa-mask"></i></i> Hello <%= user.charAt(0).toUpperCase() + user.slice(1) %>, review your favorite movies now!</h1>
+            <div class="right">
+
+                <ul>
+
+                    <li><a href="/users/dashboard">Home</a></li>
+                    <li><a href="/users/our-reviews">Our Reviews</a></li>
+                    <li><a href="#explore">Explore</a></li>
+
+                    <li><a href="/users/logout"><i class="fa-solid fa-right-from-bracket logout"></i></a></li>
+                    
+                  
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>Death on the Nile</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            Belgian sleuth Hercule Poirot's Egyptian vacation aboard a glamorous river steamer turns into a terrifying search for a murderer when a picture-perfect couple's idyllic honeymoon is tragically cut short.
+                        </p>
+                        <div class="genre">
+
+                            <a href="#" class="category">Action</a>
+                            <a href="#" class="category">Drama</a>
+                            <a href="#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square" style="margin-right: 7px;"></i>Review this movie</a>
+                            
+                        </div>
+
+                    </div>
+
+                    <img src="/image/background.jpg">
+
+                </div>
+
+              </div>
+
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>The Maze Runer</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.
+                        </p>
+                        <div class="genre">
+
+                            <a href="#" class="category">Action</a>
+                            <a href="#" class="category">Drama</a>
+                            <a href="#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square" style="margin-right: 7px;"></i>Review this movie</a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/background_1.jpg">
+
+                </div>
+
+              </div>
+
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>The Avengers</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            When the Tesseract is stolen by the nefarious God of Mischief, Loki, Nick Fury embarks on a recruitment effort to assemble a team of the world’s most powerful superheroes to get it back.
+                            
+                        </p>
+                        <div class="genre">
+
+                            <a href="#" class="category">Action</a>
+                            <a href="#" class="category">Drama</a>
+                            <a href="#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square" style="margin-right: 7px;"></i>Review this movie</a>
+                        </div>
+
+                    </div>
+
+                    <img src="/image/background_2.jpg">
+
+                </div>
+
+              </div>
+
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>Fullmetal Alchemist: Final Transmutation</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            The Elric brothers meet their toughest opponent yet, a lone serial killer. Hidden state secrets, Ed and Al's father's past, and truths are revealed as the adventure builds to an epic finale.
+                        </p>
+                        <div class="genre">
+
+                            <a href="#" class="category">Action</a>
+                            <a href="#" class="category">Drama</a>
+                            <a href="#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square" style="margin-right: 7px;"></i>Review this movie</a>
+                        </div>
+
+                    </div>
+
+                    <img src="/image/background_4.jpg">
+
+                </div>
+
+              </div>
+
+              <div class="swiper-slide">
+
+                <div class="image">
+
+                    <div class="black">
+
+                        <h1>Apocalypto</h1>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>
+                            As the Mayan kingdom faces its decline, a young man is taken on a perilous journey to a world ruled by fear and oppression.
+                        </p>
+                        <div class="genre">
+
+                            <a href="#" class="category">Action</a>
+                            <a href="#" class="category">Drama</a>
+                            <a href="#" class="category"><span>4K</span></a>
+
+                        </div>
+                        <div class="watch">
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square" style="margin-right: 7px;"></i>Review this movie</a>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/background_5.jpg">
+
+                </div>
+
+              </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </section>
+
+
+
+
+    <div class="second">
+
+        <div class="latest" id="explore">
+
+            <h1>Popular Movies</h1>
+
+            <div class="box">
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Gajaman</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Animation/Comedy</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/gajaman.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Black Panther: Wakanda Forever</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.1</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/Black_Panther.webp">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Interceptor</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/Interceptor.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Thor: Love and Thunder</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>6.3</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/Thor.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Black Adam</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>6.4</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/Black_Adam.jpg">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="upcoming">
+
+        <div class="movies_box">
+
+            
+
+            <div class="box">
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Plane</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Thriller</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/plane.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">John Wick: Chapter 4</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Neo-noir</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/john_wick.jfif">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Meg 2: The Trench</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Adventure</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/meg.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Aquaman and the Lost Kingdom</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Fantasy</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/aquaman.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Ant-Man and the Wasp: Quantumania</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2023</p>
+                            </div>
+                            <p class="category">Action/Adventure</p>
+
+                            <div class="info">
+
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <a href="/users/reviews"><i class="fa-solid fa-pen-to-square"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/ant_man.jpg">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="show">
+
+        <div class="tv_show">
+
+            <h1>Coming Soon</h1>       
+            
+            <div class="box">
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Money Heist</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2017</p>
+                            </div>
+                            <p class="category">Thriller</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/money_heist.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Wednseday</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Comedy</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/wednesday.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">1899</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2022</p>
+                            </div>
+                            <p class="category">Mystery</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.4</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/1899.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Game of Thrones</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2011</p>
+                            </div>
+                            <p class="category">Drama</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.2</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/game_of_thrones.jpg">
+
+                </div>
+
+                <div class="card">
+
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Arrow</p>
+                            <div class="date_quality">
+                                <p class="quality">HD</p>
+                                <p class="date">2012</p>
+                            </div>
+                            <p class="category">Drama</p>
+
+                            <div class="info">
+
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.5</p>
+                                </div>
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>120min</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </div>
+
+                    </div>
+
+                    <img src="/image/arrow.jpg">
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="newsletter">
+
+        <h1>Newsletter</h1>
+
+        <div class="news_card">
+
+            <input type="email" name="" id="" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+
+        </div>
+
+    </div>
+
+
+    <p class="end">Design By<span><i class="fa-solid fa-face-grin"></i>Afo Godgift for CSC481</span></p>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+
+
+<script src="/dashboard.js"></script>
+    
+
+
+
+</body>
+</html>
